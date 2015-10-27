@@ -2,8 +2,8 @@
 
 # landscape-sysinfo-mini.py -- a trivial re-implementation of the
 # sysinfo printout shown on debian at boot time. No twisted, no reactor, just /proc.
-# 
-# Loosly based on https://github.com/jnweiger/landscape-sysinfo-mini which in turn was 
+#
+# Loosly based on https://github.com/jnweiger/landscape-sysinfo-mini which in turn was
 # inspired by ubuntu 14.10 /etc/update-motd.d/50-landscape-sysinfo
 
 from __future__ import division

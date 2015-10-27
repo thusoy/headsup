@@ -6,14 +6,12 @@ from os import path
 
 setup(
     name='headsup',
-    version='0.1.0',
+    version='0.1.1',
     author='Tarjei Husøy',
     author_email='git@thusoy.com',
     url='https://github.com/thusoy/headsup',
     description="Lightweight alternative to Ubuntu's landscape-sysinfo",
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
-    py_modules=[path.join('src', 'headsup')],
+    py_modules=['headsup'],
     zip_safe=False,
     entry_points={
         'console_scripts': [
