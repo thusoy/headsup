@@ -15,6 +15,8 @@ import time
 
 
 def main():
+    # update-motd.d scripts must start with printing a single blank line
+    print
     load_average = get_system_load_average()
     processes = get_number_of_running_processes()
     defaultdev = get_default_net_device()
